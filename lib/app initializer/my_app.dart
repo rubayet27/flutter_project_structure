@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp.router(
       title: 'Flutter App',
       debugShowCheckedModeBanner: false,
-      routerConfig: RoutesPages().router,
+      routerConfig: RoutesPages.router,
     );
   }
 }

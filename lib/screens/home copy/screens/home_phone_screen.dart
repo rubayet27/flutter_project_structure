@@ -1,7 +1,7 @@
 part of 'home_screen.dart';
 
-class HomePhoneScreen extends StatelessWidget {
-  const HomePhoneScreen({super.key});
+class HomePhoneScreen2 extends StatelessWidget {
+  const HomePhoneScreen2({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -21,18 +21,6 @@ class HomePhoneScreen extends StatelessWidget {
                 decoration: BoxDecoration(
                   color: Colors.red,
                   borderRadius: BorderRadius.circular(AppRadius.lg),
-                ),
-                child: Center(
-                  child: GestureDetector(
-                    onTap: () {
-                      Routes.splash.push();
-                    },
-                    child: Container(
-                      height: 20.00.setHeight(),
-                      width: 80.00.setWidth(),
-                      color: Colors.green,
-                    ),
-                  ),
                 ),
               ),
             ),
