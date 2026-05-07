@@ -13,3 +13,4 @@ extension RoutesExtensions on String {
     RoutesPages.router.replaceNamed(this, extra: extra);
   }
 }
+ 
